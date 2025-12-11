@@ -27,14 +27,14 @@ export default function Auctions() {
   return (
     <>
       <Head>
-        <title>Live Auctions - AntiquesBazaar</title>
+        <title>Live Auctions - Ransus Antique</title>
       </Head>
 
       <div className="min-h-screen bg-gray-50">
         {/* Header */}
         <header className="bg-white shadow-md">
           <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
-            <Link href="/" className="text-2xl font-bold text-primary">🏺 AntiquesBazaar</Link>
+            <Link href="/" className="text-2xl font-bold text-primary">🏺 Ransus Antique</Link>
             <div className="space-x-4">
               <Link href="/products" className="text-gray-700 hover:text-primary">Browse</Link>
               <Link href="/auctions" className="text-primary font-semibold">Auctions</Link>

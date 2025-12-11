@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Indian Antiques & Auction Platform</title>
+        <title>Ransus Antique - Indian Antiques & Auction Platform</title>
         <meta name="description" content="Buy, sell, and auction genuine antiques and items across India" />
       </Head>
 
@@ -13,7 +13,7 @@ export default function Home() {
         {/* Header */}
         <header className="bg-white shadow-md">
           <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
-            <div className="text-2xl font-bold text-primary">🏺 AntiquesBazaar</div>
+            <div className="text-2xl font-bold text-primary">🏺 Ransus Antique</div>
             <div className="space-x-4">
               <Link href="/products" className="text-gray-700 hover:text-primary">Browse</Link>
               <Link href="/auctions" className="text-gray-700 hover:text-primary">Auctions</Link>
@@ -26,7 +26,7 @@ export default function Home() {
         {/* Hero Section */}
         <section className="container mx-auto px-6 py-20 text-center">
           <h1 className="text-5xl font-bold text-gray-800 mb-6">
-            Discover India's Heritage
+            Discover India's Heritage with Ransus Antique
           </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
             Buy, sell, and auction genuine antiques and collectibles. Connect with collectors and enthusiasts across India.
@@ -77,7 +77,7 @@ export default function Home() {
         {/* Footer */}
         <footer className="bg-gray-800 text-white py-8 mt-20">
           <div className="container mx-auto px-6 text-center">
-            <p>&copy; 2025 AntiquesBazaar. Made in India 🇮🇳</p>
+            <p>&copy; 2025 Ransus Antique. Made in India 🇮🇳</p>
           </div>
         </footer>
       </div>
